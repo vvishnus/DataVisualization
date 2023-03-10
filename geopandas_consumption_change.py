@@ -3,6 +3,11 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 from matplotlib.colors import TwoSlopeNorm
 
+'''
+Program to plot a world map choropleth showing the annual change
+in total energy consumption for each country in the world map
+'''
+
 df = pd.read_csv(r'C:\Users\veera\Downloads\abs-change-energy-consumption.csv')
 print(df.columns)
 

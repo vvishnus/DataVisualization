@@ -2,6 +2,10 @@ import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
 
+'''
+Program to plot 2 bar graphs showing the growth in renewable energy 
+and total energy consumption over the past 20 years
+'''
 raw = pd.read_csv("C:/Users/veera/Downloads/archive/World Energy Consumption.csv")
 print(raw.columns)
 # Total Renewable Energy Consumption
